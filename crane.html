@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Crane - A website for showcasing cranes Insurance and their features.">
+        <meta name="keywords" content="HTML, CSS, JavaScript, Template">
+        <meta name="author" content="Elisha Mchani">
+        <title>Crane Insurance</title>
+        <link rel="icon" href="images/logo.jpeg" type="image/jpeg">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/responsive.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+        <script src="js/javas.js"></script>
+        <script src="jquery/jquery-3.7.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.theme.default.min.js"></script>
+        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+                <div class="logo">
+                    <img src="images/logo.jpeg" alt="Crane Insurance Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="crane.html"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-users"></i> About</a></li>
+                        <li><a href="service.html"><i class="fas fa-cogs"></i> Service</a></li>
+                        <li><a href="contact.html"><i class="fas fa-phone"></i> Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Crane Insurance</h1>
+                    <p>Your trusted partner in insurance solutions.</p>
+                    <a href="about.html" class="btn">Learn More</a>
+                </div>
+
+            </section>
+            <section class="carousel">
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><img src="images/cover1.jpg" alt="Slide 1"></div>
+                    <div class="item"><img src="images/cover2.jpg" alt="Slide 2"></div>
+                    <div class="item"><img src="images/cover3.jpg" alt="Slide 3"></div>
+                    <div class="item"><img src="images/cover4.jpg" alt="Slide 4"></div>
+                    <div class="item"><img src="images/cover5.jpg" alt="Slide 5"></div>
+                </div>
+
+                <div class="carousel-controls">
+                    <button id="pause-carousel" class="btn">Pause</button>
+                    <button id="play-carousel" class="btn">Play</button>
+                </div>
+
+            </section>
+            <section class="features">
+                    <div class="feature">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Security</h3>
+                        <p>We provide top-notch security for your assets.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-thumbs-up"></i>
+                        <h3>Reliability</h3>
+                        <p>Our services are reliable and trusted by thousands.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-headset"></i>
+                        <h3>Support</h3>
+                        <p>We offer 24/7 customer support for all your needs.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h3>Affordability</h3>
+                        <p>Our plans are designed to be affordable for everyone.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-globe"></i>
+                        <h3>Global Reach</h3>
+                        <p>We operate globally, providing services to clients worldwide.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-users"></i>
+                        <h3>Community</h3>
+                        <p>Join our community of satisfied customers.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Growth</h3>
+                        <p>We help you grow your assets with our insurance plans.</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h3>Flexibility</h3>
+                        <p>Our plans are flexible and can be tailored to your needs.</p>
+                    </div>
+                    <div class="feature" >
+                        <i class="fas fa-star"></i>
+                        <h3>Quality</h3>
+                        <p>We ensure the highest quality in our services.</p>
+                    </div>
+                </div>
+
+            </section> 
+
+
+            <div class="welcome">
+                <h2>Welcome to Crane Insurance</h2>
+                <p>We are dedicated to providing the best insurance solutions for you and your family. Our team of experts is here to help you every step of the way.</p>
+                <p>Whether you need auto, home, or life insurance, we have the right plan for you. Our services are designed to be flexible and affordable, ensuring that you get the best coverage for your needs.</p>
+                <p>Join our community of satisfied customers and experience the peace of mind that comes with having the right insurance coverage. Contact us today to learn more about our services and how we can help you.</p>
+                <p>Thank you for choosing Crane Insurance!</p>
+            </div>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <p>If you have any questions, feel free to reach out to us!</p>
+            </section>
+
+            <footer>
+                <p>&copy; 2023 Crane Insurance. All rights reserved.</p>
+            </footer>
+        </div>
+        <script>
+            $(document).ready(function(){
+                const owl = $('.owl-carousel').owlCarousel({
+                    loop: true,          // Enables infinite looping
+                    margin: 10,          // Adds margin between items
+                    nav: true,           // Enables navigation arrows
+                    dots: true,          // Enables dots for navigation
+                    autoplay: true,      // Enables autoplay
+                    autoplayTimeout: 3000, // Sets autoplay interval (3 seconds)
+                    responsive: {
+                        0: {
+                            items: 1     // 1 item for small screens
+                        },
+                        600: {
+                            items: 2     // 2 items for medium screens
+                        },
+                        1000: {
+                            items: 3     // 3 items for large screens
+                        }
+                    }
+                });
+
+                // Pause button functionality
+                $('#pause-carousel').click(function() {
+                    owl.trigger('stop.owl.autoplay'); // Stops autoplay
+                });
+
+                // Play button functionality
+                $('#play-carousel').click(function() {
+                    owl.trigger('play.owl.autoplay', [3000]); // Resumes autoplay with a 3-second interval
+                });
+            });
+        </script>
+
+    </body>
+
+</html>
